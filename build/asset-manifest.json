@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4672806.css",
+    "main.js": "/static/js/main.262621d3.js",
+    "static/js/453.5fecdea2.chunk.js": "/static/js/453.5fecdea2.chunk.js",
+    "static/media/article2.jpg": "/static/media/article2.96dac01fbe02c14ae6b8.jpg",
+    "static/media/website-design.jpg": "/static/media/website-design.4d96778209aea94ffc93.jpg",
+    "static/media/article1.jpg": "/static/media/article1.7e7e8e5ea0862e57ec7a.jpg",
+    "static/media/mobile-app.jpg": "/static/media/mobile-app.ecd6f3c4a5bdb76d75a9.jpg",
+    "static/media/software-developer.jpg": "/static/media/software-developer.245e17fff03c87d075a6.jpg",
+    "static/media/team-logo.png": "/static/media/team-logo.1d0ce329c27a5c27f4a8.png",
+    "static/media/computer-software.jpg": "/static/media/computer-software.c3f98dd790486e503937.jpg",
+    "static/media/publication.png": "/static/media/publication.a87d870b324f777c869d.png",
+    "static/media/autoecoleapp.png": "/static/media/autoecoleapp.a40bafa2d331a52697ce.png",
+    "static/media/user2.png": "/static/media/user2.7b26089f3c3168335cd7.png",
+    "static/media/agencesdevoyagesapp2.png": "/static/media/agencesdevoyagesapp2.8a1dea8a4157b7b6345c.png",
+    "static/media/gsm-software.PNG": "/static/media/gsm-software.36a966240c4f39c6f398.PNG",
+    "static/media/site-logo-white.png": "/static/media/site-logo-white.ce26896d0251b58bf091.png",
+    "index.html": "/index.html",
+    "main.e4672806.css.map": "/static/css/main.e4672806.css.map",
+    "main.262621d3.js.map": "/static/js/main.262621d3.js.map",
+    "453.5fecdea2.chunk.js.map": "/static/js/453.5fecdea2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4672806.css",
+    "static/js/main.262621d3.js"
+  ]
+}
