@@ -32,7 +32,7 @@ const routes = [
         component: Faq,
     },
     {
-        path: '/team_members',
+        path: '/gttechandco/team_members',
         component: Team,
     },
     {
