@@ -1,0 +1,37 @@
+.carousel-item {
+  position: relative;
+}
+
+#projectCarousel {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.carousel-inner {
+  margin-top: 5rem;
+}
+
+.carousel-item img {
+  height: 100vh; /* Makes the images full screen height */
+  object-fit: contain; /* Ensures the images cover the carousel area without distortion */
+}
+
+.carousel-item h5 {
+  color: khaki;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1; /* Places the overlay above the image */
+}
+
+.carousel-caption {
+  z-index: 2; /* Places the caption above the overlay */
+}
+
+/*# sourceMappingURL=CarouselComponent.css.map */

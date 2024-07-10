@@ -1,0 +1,51 @@
+/* src/components/FeaturedProducts/FeaturedProducts.css */
+.featured-products {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .products-grid{
+    margin-top: 2rem;
+  }
+  
+  .products-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .products-header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .products-header button {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    text-align: left;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #666;
+  }
+
+  .card-img-top{
+    height: 300px;
+  }
+
+  .badge{
+    float: right;
+    margin-bottom: 2px;
+  }

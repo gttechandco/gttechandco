@@ -1,0 +1,70 @@
+/* src/components/TeamSection/TeamSection.css */
+.team-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .team-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .team-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ddd;
+  }
+  
+  .team-details h2 {
+    margin-top: 3rem;
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .team-tags {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .team-tags .tag {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
+  
+  .team-details p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .team-action button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .team-action button:hover {
+    background-color: #333;
+  }
+  

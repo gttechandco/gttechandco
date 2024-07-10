@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4672806.css",
-    "main.js": "/static/js/main.262621d3.js",
+    "main.css": "/static/css/main.23ed23e1.css",
+    "main.js": "/static/js/main.1f42e45a.js",
     "static/js/453.5fecdea2.chunk.js": "/static/js/453.5fecdea2.chunk.js",
     "static/media/article2.jpg": "/static/media/article2.96dac01fbe02c14ae6b8.jpg",
     "static/media/website-design.jpg": "/static/media/website-design.4d96778209aea94ffc93.jpg",
@@ -17,12 +17,12 @@
     "static/media/gsm-software.PNG": "/static/media/gsm-software.36a966240c4f39c6f398.PNG",
     "static/media/site-logo-white.png": "/static/media/site-logo-white.ce26896d0251b58bf091.png",
     "index.html": "/index.html",
-    "main.e4672806.css.map": "/static/css/main.e4672806.css.map",
-    "main.262621d3.js.map": "/static/js/main.262621d3.js.map",
+    "main.23ed23e1.css.map": "/static/css/main.23ed23e1.css.map",
+    "main.1f42e45a.js.map": "/static/js/main.1f42e45a.js.map",
     "453.5fecdea2.chunk.js.map": "/static/js/453.5fecdea2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4672806.css",
-    "static/js/main.262621d3.js"
+    "static/css/main.23ed23e1.css",
+    "static/js/main.1f42e45a.js"
   ]
 }

@@ -1,0 +1,33 @@
+/* src/components/HeroSection/HeroSection.css */
+.minimal-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+  color: white;
+  background-color: #333;
+  background-image: url("../../assets/images/software-developer.jpg");
+  background-size: contain no-repeat;
+}
+
+.minimal-hero-content {
+  max-width: 700px;
+}
+
+.minimal-hero-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.minimal-hero-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.minimal-hero-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=MinimalHero.css.map */

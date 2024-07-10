@@ -1,0 +1,28 @@
+/* src/components/LatestNews/LatestNews.css */
+.latest-news {
+    background-color: #f8f9fa;
+    margin-top: 5rem;
+  }
+  
+  .latest-news .card {
+    border: none;
+  }
+  
+  .latest-news .card-body {
+    padding: 1rem;
+  }
+  
+  .latest-news .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .latest-news .card-text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .latest-news .text-muted {
+    color: #6c757d !important;
+  }
+  
