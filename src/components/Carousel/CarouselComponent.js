@@ -3,6 +3,7 @@ import './CarouselComponent.css';
 import projet1 from "../../assets/images/agencesdevoyagesapp2.png";
 import projet2 from "../../assets/images/autoecoleapp.png";
 import projet3 from "../../assets/images/gsm-software.PNG";
+import { Link } from 'react-router-dom';
 //import projet4 from "../../assets/images/agencesdevoyagesapp2.png";
 //import projet5 from "../../assets/images/agencesdevoyagesapp2.png";
 
@@ -10,7 +11,7 @@ const CarouselComponent = ({joinedId}) => (
     <div id="projectCarousel" className="carousel slide" data-bs-ride="carousel">
         <h2>Nos Travaux</h2>
         <p>Une sélection de quelques projets que nous avons déjà éffectués</p>
-        <a href={'/projects'+joinedId} className='btn btn-dark'>Voir tous les projets</a>
+        <Link to={'/gttechandco/projects'+joinedId} className='btn btn-dark'>Voir tous les projets</Link>
       
     <div className="carousel-inner">
       <div className="carousel-item active">

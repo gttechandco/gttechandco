@@ -6,7 +6,7 @@ const Team = () => {
     return (
         <div className="team">
             <Helmet>
-                <title>GT TECH & Co - Equipe</title>
+                <title>Gentle Tech et Compagnie: Site officiel - Notre équipe est disponible pour vous 24/7</title>
             </Helmet>
             <MinimalHero topicTitle="Equipe" pageContent="team" pageDescription="Visitez vous même les profils des membres de nos différentes équipes et services et apprenez en plus sur eux"/>
         </div>

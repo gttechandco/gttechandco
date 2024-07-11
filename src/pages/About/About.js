@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="about">
             <Helmet>
-                <title>GT TECH & Co - A propos</title>
+                <title>Gentle Tech et Compagnie: Site officiel - A propos de nous</title>
             </Helmet>
             <MinimalHero topicTitle="A Propos" pageContent="about_us" pageDescription="Découvrez notre vision, nos objectifs, notre politique et faites vous une idée par vous même du style de services que nous rendons"/>
             <section className="about_us" id="about_us">

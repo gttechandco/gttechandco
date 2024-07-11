@@ -6,7 +6,7 @@ const Faq = () => {
     return (
         <div className="faq">
             <Helmet>
-                <title>GT TECH & Co - Foire aux question</title>
+                <title>Gentle Tech et Compagnie: Site officiel - Foire aux questions</title>
             </Helmet>
             <MinimalHero topicTitle="F A Q" pageContent="faq" pageDescription="Découvrez les questions qui reviennent fréquemment et les réponses aux diverses préoccupations"/>
         </div>

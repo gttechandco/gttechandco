@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="contacts">
             <Helmet>
-                <title>GT TECH & Co - Contacts</title>
+                <title>Gentle Tech et Compagnie: Site officiel - Contactez nous via nos différents canaux</title>
             </Helmet>
             <MinimalHero topicTitle="Contact" pageContent="contacts" pageDescription="Découvrez nos différents réseaux sociaux, liens, et remplissez divers formulaires de contact selon vos besoins"/>
         </div>

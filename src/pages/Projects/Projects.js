@@ -7,7 +7,7 @@ const Project = () => {
     return (
         <div className="projects">
             <Helmet>
-                <title>GT TECH & Co - Projets</title>
+                <title>Gentle Tech et Compagnie: Site officiel - Espace projets</title>
             </Helmet>
             <MinimalHero pageContent="our_projects" topicTitle="Nos Projets" pageDescription="Découvrez une liste des différents travaux réalisés par nos soins afin de vous faire une bonne idée du niveau de nos développeurs" />
             <div className="project_content">

@@ -21,7 +21,7 @@ const TeamSection = () => (
         </div>
       </div>
       <div className="team-action">
-        <Link to="/team" className='btn btn-dark'>En savoir plus</Link>
+        <Link to="/gttechandco/team_members" className='btn btn-dark'>En savoir plus</Link>
       </div>
     </div>
   </section>

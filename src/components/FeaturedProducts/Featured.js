@@ -11,7 +11,7 @@ const FeaturedProducts = () => (
     <div className="products-header">
       <h2>Nos Offres Exclusives </h2>
       <p>Découvrez nos toutes dernières promotions</p>
-      <Link to='/services' className='btn btn-dark'>Voir toutes les offres</Link>
+      <Link to='/gttechandco/services' className='btn btn-dark'>Voir toutes les offres</Link>
     </div>
     <div className="products-grid">
     <div className="row">

@@ -4,9 +4,10 @@ import {Link} from 'react-router-dom';
 import logo from "../../assets/images/site-logo-white.png"
 import './Header.css';
 
+
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id='header'>
       <div className='container'>
       <Link className="navbar-brand" to="/gttechandco">
         <img src={logo} alt="Logo" height="50" />
@@ -56,10 +57,11 @@ const Header = () => {
             placeholder="Rechercher sur le site"
             aria-label="Search"
           />
-          <button className="btn btn-outline-dark my-2 my-sm-0" type="submit">🔍</button>
+          <button className="btn btn my-2 my-sm-0" type="submit">🔍</button>
         </form>
       </div>
       </div>
+      
     </nav>
   );
 };

@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="home">
             <Helmet>
-                <title>GT TECH & Co - Acceuil</title>
+                <title>Gentle Tech et Compagnie: Site officiel - Page d'acceuil</title>
             </Helmet>
             <HeroSection />
             <TeamSection />

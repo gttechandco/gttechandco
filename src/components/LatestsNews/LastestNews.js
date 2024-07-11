@@ -11,7 +11,7 @@ const LatestNews = () => (
       <div className="text-center mb-5">
         <h2>Dernières Nouvelles</h2>
         <p>Restez constamment à jour pour ne rien rater des nos nouvelles offres et possibilités.</p>
-        <Link to='/news' className="btn btn-dark">Lire plus</Link>
+        <Link to='/gttechandco/news' className="btn btn-dark">Lire plus</Link>
       </div>
       <div className="row">
         <div className="col-md-6 mb-4">

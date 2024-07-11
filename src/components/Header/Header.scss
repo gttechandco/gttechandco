@@ -1,10 +1,12 @@
 /* src/components/Header/Header.css */
-.header {
+#header {
     display: flex;
+    color: white;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: slateblue;
+    position: relative;
 }
 
 .logo {
@@ -85,7 +87,6 @@
     
     .search button {
         border-radius: 5px;
-        margin-left: 5px;
     }
 }
 

@@ -6,7 +6,7 @@ const NotFound = () => {
     return (
         <div className="row notfound">
             <Helmet>
-                <title>GT TECH & Co - Non trouvé</title>
+                <title>Gentle Tech et Compagnie: Site officiel - Aucune correspondance</title>
             </Helmet>
             <h1>
                 Oups ! 😓 

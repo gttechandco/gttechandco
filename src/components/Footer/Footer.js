@@ -2,6 +2,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from "../../assets/images/site-logo-white.png";
+import { Link } from 'react-router-dom';
 
 const getYear = () => {
     let dateOfTheDay = new Date();
@@ -24,10 +25,10 @@ const Footer = () => (
         <div className="col-md-4">
           <h5>Liens</h5>
           <ul className="list-unstyled">
-            <li><a href="/home">Accueil</a></li>
-            <li><a href="/about">À propos</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/gttechandco">Accueil</Link></li>
+            <li><Link to="/gttechandco/about">À propos</Link></li>
+            <li><Link to="/gttechandco/services">Services</Link></li>
+            <li><Link to="/gttechandco/contact">Contacts</Link></li>
           </ul>
         </div>
         <div className="col-md-4">
