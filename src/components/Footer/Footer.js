@@ -20,7 +20,7 @@ const Footer = () => (
           <img src={logo} width="100px" alt="Logo" className="mb-2" />
           <p>GT TECH & Co</p>
           <p>+237 698 60 31 78</p>
-          <p>jakim2621@gmail.com</p>
+          <p>company.gttechandco@gmail.com</p>
         </div>
         <div className="col-xl-4 ld-4 md-4 sm-12">
           <h5>Liens</h5>
