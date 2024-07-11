@@ -1,9 +1,13 @@
 import React from "react";
 import MinimalHero from "../../components/MinimalistHero/MinimalHero";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
     return (
         <div className="about">
+            <Helmet>
+                <title>GT TECH & Co - A propos</title>
+            </Helmet>
             <MinimalHero topicTitle="A Propos" pageContent="about_us" pageDescription="Découvrez notre vision, nos objectifs, notre politique et faites vous une idée par vous même du style de services que nous rendons"/>
             <section className="about_us" id="about_us">
                 <div className="container">
