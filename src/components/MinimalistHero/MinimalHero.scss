@@ -1,32 +1,104 @@
 /* src/components/HeroSection/HeroSection.css */
 .minimal-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    height: 100vh;
-    color: white;
-    background-color: #333;
-    background-image: url("../../assets/images/software-developer.jpg");
-    background-size: contain no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 100vh;
+  color: white;
+  background-color: #333;
+  background-image: url("../../assets/images/software-developer.jpg");
+  background-size: cover; /* Utilisation de cover pour ajuster l'image de fond */
+  background-repeat: no-repeat;
+}
+
+.minimal-hero-content {
+  max-width: 700px;
+}
+
+.minimal-hero-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.minimal-hero-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.minimal-hero-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .minimal-hero {
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
   }
   
   .minimal-hero-content {
-    max-width: 700px;
+      max-width: 100%;
+      text-align: center;
   }
   
   .minimal-hero-content h2 {
-    font-size: 3em;
-    margin-bottom: 20px;
+      font-size: 2.5em;
   }
   
   .minimal-hero-content p {
-    font-size: 1.1em;
-    margin-bottom: 20px;
+      font-size: 1em;
   }
   
   .minimal-hero-buttons {
-    display: flex;
-    gap: 30px;
+      flex-direction: column;
+      gap: 20px;
   }
+}
 
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .minimal-hero-content h2 {
+      font-size: 2.8em;
+  }
+  
+  .minimal-hero-content p {
+      font-size: 1.1em;
+  }
+}
+
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .minimal-hero-content h2 {
+      font-size: 3.2em;
+  }
+  
+  .minimal-hero-content p {
+      font-size: 1.2em;
+  }
+}
+
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .minimal-hero-content h2 {
+      font-size: 3.5em;
+  }
+  
+  .minimal-hero-content p {
+      font-size: 1.3em;
+  }
+}
+
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+  .minimal-hero-content h2 {
+      font-size: 4em;
+  }
+  
+  .minimal-hero-content p {
+      font-size: 1.4em;
+  }
+}

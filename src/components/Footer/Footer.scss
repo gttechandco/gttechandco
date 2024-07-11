@@ -1,28 +1,109 @@
+/* Footer styles */
 .footer-section {
-    padding: 20px 0;
-    background-color: slateblue;
-    color: white;
+  padding: 20px 0;
+  background-color: slateblue;
+  color: white;
+}
+
+.footer-section h5 {
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .footer-section {
+      padding: 10px 0;
+      text-align: center;
   }
   
   .footer-section h5 {
-    margin-bottom: 20px;
-  }
-  
-  .footer-section ul {
-    padding: 0;
-    list-style: none;
+      font-size: 1.2rem;
   }
   
   .footer-section ul li {
-    margin-bottom: 10px;
+      margin-bottom: 8px;
+  }
+}
+
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-section {
+      padding: 15px 0;
+      text-align: center;
   }
   
-  .footer-section ul li a {
-    color: #fff;
-    text-decoration: none;
+  .footer-section h5 {
+      font-size: 1.4rem;
   }
   
-  .footer-section ul li a:hover {
-    text-decoration: underline;
+  .footer-section ul li {
+      margin-bottom: 10px;
+  }
+}
+
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-section {
+      padding: 20px 0;
+      text-align: left;
   }
   
+  .footer-section h5 {
+      font-size: 1.6rem;
+  }
+  
+  .footer-section ul li {
+      margin-bottom: 12px;
+  }
+}
+
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .footer-section {
+      padding: 25px 0;
+      text-align: left;
+  }
+  
+  .footer-section h5 {
+      font-size: 1.8rem;
+  }
+  
+  .footer-section ul li {
+      margin-bottom: 14px;
+  }
+}
+
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+  .footer-section {
+      padding: 30px 0;
+      text-align: left;
+  }
+  
+  .footer-section h5 {
+      font-size: 2rem;
+  }
+  
+  .footer-section ul li {
+      margin-bottom: 16px;
+  }
+}

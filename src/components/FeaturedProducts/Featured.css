@@ -42,12 +42,44 @@
 }
 
 .card-img-top {
-  height: 300px;
+  height: 300px; /* Default height */
 }
 
 .badge {
   float: right;
   margin-bottom: 2px;
+}
+
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .card-img-top {
+    height: auto; /* Adjust as needed */
+  }
+}
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .card-img-top {
+    height: 250px; /* Adjust as needed */
+  }
+}
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-img-top {
+    height: 300px; /* Adjust as needed */
+  }
+}
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .card-img-top {
+    height: 350px; /* Adjust as needed */
+  }
+}
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+  .card-img-top {
+    height: 400px; /* Adjust as needed */
+  }
 }
 
 /*# sourceMappingURL=Featured.css.map */

@@ -26,4 +26,66 @@
   color: #6c757d !important;
 }
 
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .latest-news {
+    margin-top: 3rem;
+  }
+  .latest-news .card-title {
+    font-size: 1.1rem;
+  }
+  .latest-news .card-text {
+    font-size: 0.9rem;
+  }
+}
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .latest-news {
+    margin-top: 4rem;
+  }
+  .latest-news .card-title {
+    font-size: 1.2rem;
+  }
+  .latest-news .card-text {
+    font-size: 1rem;
+  }
+}
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .latest-news {
+    margin-top: 5rem;
+  }
+  .latest-news .card-title {
+    font-size: 1.3rem;
+  }
+  .latest-news .card-text {
+    font-size: 1.1rem;
+  }
+}
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .latest-news {
+    margin-top: 6rem;
+  }
+  .latest-news .card-title {
+    font-size: 1.4rem;
+  }
+  .latest-news .card-text {
+    font-size: 1.2rem;
+  }
+}
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+  .latest-news {
+    margin-top: 7rem;
+  }
+  .latest-news .card-title {
+    font-size: 1.5rem;
+  }
+  .latest-news .card-text {
+    font-size: 1.3rem;
+  }
+}
+
 /*# sourceMappingURL=LatestNews.css.map */

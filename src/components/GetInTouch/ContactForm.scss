@@ -1,15 +1,91 @@
+/* Styles pour la section de formulaire de contact */
 .contact-form-section {
-    text-align: center;
-    margin: 50px 0;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.contact-form-section form {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-form-section .btn {
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .contact-form-section {
+      margin: 30px 0;
   }
   
   .contact-form-section form {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
+      padding: 0 10px; /* Adjust padding as needed */
   }
   
   .contact-form-section .btn {
-    margin-top: 20px;
+      margin-top: 15px;
+  }
+}
+
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .contact-form-section {
+      margin: 40px 0;
   }
   
+  .contact-form-section form {
+      padding: 0 20px; /* Adjust padding as needed */
+  }
+  
+  .contact-form-section .btn {
+      margin-top: 18px;
+  }
+}
+
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-form-section {
+      margin: 50px 0;
+  }
+  
+  .contact-form-section form {
+      padding: 0 30px; /* Adjust padding as needed */
+  }
+  
+  .contact-form-section .btn {
+      margin-top: 20px;
+  }
+}
+
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .contact-form-section {
+      margin: 60px 0;
+  }
+  
+  .contact-form-section form {
+      padding: 0 40px; /* Adjust padding as needed */
+  }
+  
+  .contact-form-section .btn {
+      margin-top: 22px;
+  }
+}
+
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+  .contact-form-section {
+      margin: 70px 0;
+  }
+  
+  .contact-form-section form {
+      padding: 0 50px; /* Adjust padding as needed */
+  }
+  
+  .contact-form-section .btn {
+      margin-top: 24px;
+  }
+}

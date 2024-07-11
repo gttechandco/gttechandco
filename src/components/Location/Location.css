@@ -3,4 +3,30 @@
   height: 420px;
 }
 
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .location-section .leaflet-container {
+    height: 300px; /* Adjust height for mobile phones */
+  }
+}
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .location-section .leaflet-container {
+    height: 360px; /* Adjust height for tablets */
+  }
+}
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .location-section .leaflet-container {
+    height: 400px; /* Adjust height for laptops */
+  }
+}
+/* Desktops and larger screens (1025px and up) */
+@media (min-width: 1025px) {
+  .location-section .leaflet-container {
+    height: 420px; /* Default height for desktops and larger screens */
+  }
+}
+
 /*# sourceMappingURL=Location.css.map */

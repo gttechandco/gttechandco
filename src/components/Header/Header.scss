@@ -40,17 +40,79 @@
 }
 
 .search input {
-    padding: 5px;
+    padding: 10px;
     border: none;
     border-radius: 5px 0 0 5px;
-    width: 350px;
+    width: 250px;
 }
 
 .search button {
-    padding: 5px;
+    padding: 10px;
     border-left: none;
     border: none;
     background-color: transparent;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+}
+
+/* Responsive Design */
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .logo img {
+        height: 40px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .navigation ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .search {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .search input {
+        width: 100%;
+    }
+    
+    .search button {
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+}
+
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .search input {
+        width: 300px;
+    }
+}
+
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .search input {
+        width: 350px;
+    }
+}
+
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .search input {
+        width: 400px;
+    }
+}
+
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+    .search input {
+        width: 450px;
+    }
 }

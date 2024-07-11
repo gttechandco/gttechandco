@@ -33,4 +33,80 @@
   .carousel-caption {
     z-index: 2; /* Places the caption above the overlay */
   }
-  
+
+  /* Responsive design */
+
+/* Mobile phones (up to 575px) */
+@media (max-width: 575px) {
+  .carousel-item img {
+    height: 60vh; /* Adjust image height for small screens */
+  }
+
+  .carousel-item h5 {
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+
+  .carousel-inner {
+    margin-top: 2rem;
+  }
+}
+
+/* Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-item img {
+    height: 70vh; /* Adjust image height for tablets */
+  }
+
+  .carousel-item h5 {
+    font-size: 1.25rem; /* Adjust font size for tablets */
+  }
+
+  .carousel-inner {
+    margin-top: 3rem;
+  }
+}
+
+/* Laptops (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousel-item img {
+    height: 80vh; /* Adjust image height for laptops */
+  }
+
+  .carousel-item h5 {
+    font-size: 1.5rem; /* Adjust font size for laptops */
+  }
+
+  .carousel-inner {
+    margin-top: 4rem;
+  }
+}
+
+/* Desktops (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .carousel-item img {
+    height: 90vh; /* Adjust image height for desktops */
+  }
+
+  .carousel-item h5 {
+    font-size: 1.75rem; /* Adjust font size for desktops */
+  }
+
+  .carousel-inner {
+    margin-top: 4.5rem;
+  }
+}
+
+/* Televisions (1441px and up) */
+@media (min-width: 1441px) {
+  .carousel-item img {
+    height: 100vh; /* Full screen height for televisions */
+  }
+
+  .carousel-item h5 {
+    font-size: 2rem; /* Adjust font size for televisions */
+  }
+
+  .carousel-inner {
+    margin-top: 5rem;
+  }
+}
