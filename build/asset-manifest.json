@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gttechandco/static/css/main.1811b0f8.css",
-    "main.js": "/gttechandco/static/js/main.f016d936.js",
+    "main.js": "/gttechandco/static/js/main.2a51be4c.js",
     "static/js/453.5fecdea2.chunk.js": "/gttechandco/static/js/453.5fecdea2.chunk.js",
     "static/media/article2.jpg": "/gttechandco/static/media/article2.96dac01fbe02c14ae6b8.jpg",
     "static/media/website-design.jpg": "/gttechandco/static/media/website-design.4d96778209aea94ffc93.jpg",
@@ -18,11 +18,11 @@
     "static/media/site-logo-white.png": "/gttechandco/static/media/site-logo-white.ce26896d0251b58bf091.png",
     "index.html": "/gttechandco/index.html",
     "main.1811b0f8.css.map": "/gttechandco/static/css/main.1811b0f8.css.map",
-    "main.f016d936.js.map": "/gttechandco/static/js/main.f016d936.js.map",
+    "main.2a51be4c.js.map": "/gttechandco/static/js/main.2a51be4c.js.map",
     "453.5fecdea2.chunk.js.map": "/gttechandco/static/js/453.5fecdea2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1811b0f8.css",
-    "static/js/main.f016d936.js"
+    "static/js/main.2a51be4c.js"
   ]
 }

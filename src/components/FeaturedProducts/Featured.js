@@ -15,7 +15,7 @@ const FeaturedProducts = () => (
     </div>
     <div className="products-grid">
     <div className="row">
-      <div className="col-md-4">
+      <div className="col-md-4" id='products'>
         <div className="card">
           <div className="card-body">
             <span className="badge bg-success">Promotion exclusive valable jusqu'au 11 Juillet 2024</span>
@@ -26,7 +26,7 @@ const FeaturedProducts = () => (
           </div>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4" id='products'>
         <div className="card">
           <div className="card-body">
             <span className="badge bg-success">Promotion exclusive valable jusqu'au 11 Juillet 2024</span>
@@ -37,7 +37,7 @@ const FeaturedProducts = () => (
           </div>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4" id='products'>
         <div className="card">
           <div className="card-body">
             <span className="badge bg-success">Promotion exclusive valable jusqu'au 11 Juillet 2024</span>
