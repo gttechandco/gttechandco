@@ -7,10 +7,14 @@ import SocialMedia from "../../components/SocialMedia";
 import ContactForm from "../../components/GetInTouch/ContactForm";
 import LocationSection from "../../components/Location/Location";
 import CarouselComponent from "../../components/Carousel/CarouselComponent";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
     return (
         <div className="home">
+            <Helmet>
+                <title>GT TECH & Co - Acceuil</title>
+            </Helmet>
             <HeroSection />
             <TeamSection />
             <FeaturedProducts />
