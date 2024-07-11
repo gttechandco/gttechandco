@@ -6,7 +6,8 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className='container'>
       <Link className="navbar-brand" to="/gttechandco">
         <img src={logo} alt="Logo" height="50" />
       </Link>
@@ -22,7 +23,7 @@ const Header = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav mx-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/gttechandco">Accueil</Link>
           </li>
@@ -55,8 +56,9 @@ const Header = () => {
             placeholder="Rechercher sur le site"
             aria-label="Search"
           />
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">🔍</button>
+          <button className="btn btn-outline-dark my-2 my-sm-0" type="submit">🔍</button>
         </form>
+      </div>
       </div>
     </nav>
   );
